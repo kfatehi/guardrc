@@ -1,0 +1,14 @@
+# puts "FOOFAFAF #{Guardrc::Snippet::Notification.off}"
+binding.pry
+eval Guardrc::Snippet::Notification.off
+eval Guardrc::Snippet::Testingtools.cucumber_and_rspec
+
+
+# I can do normal Guard::Dsl stuff
+# notification :off
+
+# And I can use snippets now
+
+
+# And any other ruby ... now I can keep file this in the .gitignore and customize
+# while still retaining the actual Guardfile
