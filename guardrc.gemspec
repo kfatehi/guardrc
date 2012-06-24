@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Keyvan Fatehi"]
   gem.email         = ["keyvanfatehi@gmail.com"]
   gem.description   = "Guardrc allows one to have custom Guardfile commands in a different file than the Guardfile. Useful for different developers with different Guardfile preferences to be able to customize without removing/ignoring the Guardfile from git entirely."
-  gem.summary       = "Eval Guarfile commands in an external file from the Guardfile"
+  gem.summary       = "Eval Guardfile commands in an external file from the Guardfile"
   gem.homepage      = "https://github.com/keyvanfatehi/guardrc"
 
   gem.files         = `git ls-files`.split($\)
