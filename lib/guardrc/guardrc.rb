@@ -1,10 +1,10 @@
 module Guardrc
   def Guardrc.at(path)
-    @path = path
-    if File.exists?(path)
+    @path = File.expand_path(path)
+    if File.exists?(@path)
       File.open(@path, 'r') { |f| f.read }
     else
-      "puts 'Guardrc not found: #{path} not loaded'"
+      "puts 'Guard-compatible file not found #{@path}'"
     end
   end
 end
