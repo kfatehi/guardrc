@@ -24,6 +24,8 @@ Add the gem with bundler
   gem 'guardrc'
 ```
 
+Run bundle, bundle install, etc to get it installed.
+
 Next, in your Guardfile, require guardrc and eval your external file with Guardrc's help
 ```ruby
   # Guardfile
