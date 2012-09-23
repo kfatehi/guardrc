@@ -1,5 +1,11 @@
 # Guardrc
 
+## Update
+
+I just googled "guardrc" and discovered this functionality exists in Guard at this time (perhaps it even did before I wrote this gem).
+Please see https://github.com/guard/guard/issues/265 for more information. Basically you use a .guard.rb file in your home directory.
+I won't yank this from rubygems since it has so many downloads and does work.
+
 ## Description
 Guardrc allows one to have custom Guardfile commands in a different file than the Guardfile. Useful for different developers with different Guardfile preferences to be able to customize without removing/ignoring the Guardfile from git entirely.
 
